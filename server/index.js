@@ -34,7 +34,7 @@ let pool;
     app.use("/api/contacts", router);
 
     // Optional: root test route
-    app.get("/", (req, res) => {
+    app.get("/api/health", (req, res) => {
         res.status(200).send("OK");
     });
 

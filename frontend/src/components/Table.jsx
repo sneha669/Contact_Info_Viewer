@@ -10,6 +10,7 @@ import DeleteUserModal from "./modals/DeleteUserModal";
 function Table() {
 
   const API = import.meta.env.VITE_BACKEND_URL
+  console.log("Here is the API that i am usinh !! "+API);
 
   //using use state, use ref for state variables and ref to track if fetch has already been attempted
   const [users, setUsers] = useState([]);
